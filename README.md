@@ -1,81 +1,36 @@
-# Chatgaiya-ChatApp
-A fullstack Messaging app which has all the basic features for a group,private chat, handy features like typing indicator and notification icon and encryption.
-User can create unlimited group and private messages. anyway, this project was made for Semester project.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Live App link
-[Chatgaiya ChatApp](http://chatgaiya-chatapp.herokuapp.com)
+## Getting Started
 
-## Main Features In Screenshots
-### Log In
-![](https://github.com/mujibultanim/Chatgaiya-ChatApp/blob/main/Demo/log%20in.png)
-### Registration Page
-![](https://github.com/mujibultanim/Chatgaiya-ChatApp/blob/main/Demo/registration.png)
-### Group chat
-![](https://github.com/mujibultanim/Chatgaiya-ChatApp/blob/main/Demo/groupchat.png)
-### Notification and Search Bar & Private Chat
-![](https://github.com/mujibultanim/Chatgaiya-ChatApp/blob/main/Demo/notification%20and%20search.png)
-### Typing Indicator
-![](https://github.com/mujibultanim/Chatgaiya-ChatApp/blob/main/Demo/typing%20indicator.png)
+First, run the development server:
 
-
-## Tech Used
-
-**Client:** React JS
-
-**Server:** Node JS, Express JS
-
-**Database:** Mongo DB
-
-<details> 
-  <summary>How to run locally :point_down:</summary>
-  
-  >open terminal and go to the **Chatgaiya-ChatApp** directory.
->As for security reason, it's a common practice that no one upload their crusial credentials and dotenv file.
-So, for using it,create a dotenv file in main directory(chatgaiya-chatapp/) and put essential references like,
-
-```
-  MONGO_URI=
-  PORT=5000
-  JWT_SECRET=mujib71
-  NODE_ENV=production
-```
- 
- after equal sign paste your secret values without any spaces. As of now, you understood that you need to make a mongodb atlas account and a cluster for URI, if you're a beginner then you could use online help
-  
-**Clone the project**
-  >before You proceed, you should have installed node in your machine
-```
-https://github.com/mujibultanim/Chatgaiya-ChatApp
-```
-**Go to the project folder**
-```
-cd Chatgaiya-Chatapp
-```
-**install dependencies:**
-```
-npm install
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-**Note: If you don't have yarn globally installed then install it**
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```
-cd frontend
-yarn install
-```
->now, build the project for production:
-```
-yarn build
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-**Start the server**
->just back one step to the main folder
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-```
-cd ..
-npm start
-```
-  </details>
+## Learn More
 
-**Enjoy...** :relaxed:
+To learn more about Next.js, take a look at the following resources:
 
-This project is youtube Tutorials inspired and made solely for Learning purposes not for any serious job.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
