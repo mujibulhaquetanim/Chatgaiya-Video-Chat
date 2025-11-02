@@ -1,22 +1,36 @@
 # Chatgaiya-ChatApp
+
+> **Old Project, switch to the main branch for upgraded and new features**
+
 A fullstack Messaging app which has all the basic features for a group,private chat, handy features like typing indicator and notification icon and encryption.
 User can create unlimited group and private messages. anyway, this project was made for Semester project.
 
 ## Live App link
+
+This was deployed on heroku server on free tier but it is not working now.
 [Chatgaiya ChatApp](http://chatgaiya-chatapp.herokuapp.com)
 
 ## Main Features In Screenshots
-### Log In
-![](https://github.com/mujibultanim/Chatgaiya-ChatApp/blob/main/Demo/log%20in.png)
-### Registration Page
-![](https://github.com/mujibultanim/Chatgaiya-ChatApp/blob/main/Demo/registration.png)
-### Group chat
-![](https://github.com/mujibultanim/Chatgaiya-ChatApp/blob/main/Demo/groupchat.png)
-### Notification and Search Bar & Private Chat
-![](https://github.com/mujibultanim/Chatgaiya-ChatApp/blob/main/Demo/notification%20and%20search.png)
-### Typing Indicator
-![](https://github.com/mujibultanim/Chatgaiya-ChatApp/blob/main/Demo/typing%20indicator.png)
 
+### Log In
+
+![Log In Page](./Demo/log%20in.png)
+
+### Registration Page
+
+![Registration Page](./Demo/registration.png)
+
+### Group chat
+
+![Group chat page](./Demo/groupchat.png)
+
+### Notification and Search Bar & Private Chat
+
+![Notification and Search Bar](./Demo/notification%20and%20search.png)
+
+### Typing Indicator
+
+![Typing Indicator](./Demo/typing%20indicator.png)
 
 ## Tech Used
 
@@ -33,47 +47,56 @@ User can create unlimited group and private messages. anyway, this project was m
 >As for security reason, it's a common practice that no one upload their crusial credentials and dotenv file.
 So, for using it,create a dotenv file in main directory(chatgaiya-chatapp/) and put essential references like,
 
+```js
+MONGO_URI = PORT = 5000;
+JWT_SECRET = mujib71;
+NODE_ENV = production;
 ```
-  MONGO_URI=
-  PORT=5000
-  JWT_SECRET=mujib71
-  NODE_ENV=production
-```
- 
- after equal sign paste your secret values without any spaces. As of now, you understood that you need to make a mongodb atlas account and a cluster for URI, if you're a beginner then you could use online help
-  
+
+after equal sign paste your secret values without any spaces. As of now, you understood that you need to make a mongodb atlas account and a cluster for URI, if you're a beginner then you could use online help
+
 **Clone the project**
-  >before You proceed, you should have installed node in your machine
-```
+
+> before You proceed, you should have installed node in your machine
+
+```bash
 https://github.com/mujibultanim/Chatgaiya-ChatApp
 ```
+
 **Go to the project folder**
-```
+
+```bash
 cd Chatgaiya-Chatapp
 ```
+
 **install dependencies:**
-```
+
+```bash
 npm install
 ```
 
 **Note: If you don't have yarn globally installed then install it**
 
-```
+```bash
 cd frontend
 yarn install
 ```
->now, build the project for production:
-```
+
+> now, build the project for production:
+
+```bash
 yarn build
 ```
 
 **Start the server**
->just back one step to the main folder
 
-```
+> just back one step to the main folder
+
+```bash
 cd ..
 npm start
 ```
+
   </details>
 
 **Enjoy...** :relaxed:
